@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --font-family: 'Roboto', sans-serif;
+  --color-nav-on: #FFF; /* e do quero saber mais*/
+  --color-nav-off-universo-: #8D8D99;
+  --color-nav-off-homeEexploracao: #C4C4CC;
+  --color-content: #E1E1E6;
+  --color-buttonbg-hover: #02799D;
+}
+
+body{
+  font-family: var(--font-family);
+  color: var(--color-nav-off-homeEexploracao);
+  background-image: url(./assets/mountains-universe-1.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+
+/* home https://i.imgur.com/TK6KsIO.png  */
+/* universo https://i.imgur.com/yfHOOrH.png  */
+/* exploração  https://i.imgur.com/iBlqN1D.png  */ 
+
+span {
+  /* color: var(--color-nav-off-homeEexploracao); */
+  
+  font-size: 2.1rem; 
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1rem;
+  text-decoration: none;
+  margin: 0 3rem 0 0;
+  /* text-overflow */
+  
+}
+
+span:hover{
+  font-weight: 700;
+}
+
+img {
+  margin-right: 2.5rem;
+}
+
+nav{
+  margin: 4rem auto 4rem 7.2rem;
+  color: fuchsia;
+  
+}
+
+h1, h2 {
+  color: var(--color-content);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 4.8rem;
+  margin: 17.2rem auto 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /*60px */
+}
+
+h2 {  
+  margin: 6.3rem auto 1.6rem 10.2rem;
+  align-items: flex-start;
+}
+
+ p {
+  font-size: 1.8rem;
+  margin-left: 10.2rem;
+  max-width: 64.8rem;  
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+ }
+
+
+div button {  
+  display: flex;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center; 
+  margin: auto; /* para forçar a ficar no centro*/ 
+
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: var(--color-nav-on);
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  
+}
+
+div button:hover {
+  background-color: var(--color-nav-on);
+  color: var(--color-buttonbg-hover);  
+}
+
+
+
+ 
